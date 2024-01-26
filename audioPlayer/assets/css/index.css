@@ -1,0 +1,28 @@
+.audio-player-element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.audio-player-element .player {
+  display: none;
+  align-items: center;
+}
+.audio-player-element input[type="range"] {
+  margin-bottom: 0 !important;
+  margin-right: 5%;
+}
+
+.audio-player-element .title,
+.audio-player-element .player {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+.pause-button {
+  display: none;
+}
+
+.stop-button {
+  display: none;
+}
